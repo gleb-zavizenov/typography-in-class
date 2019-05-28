@@ -1,51 +1,41 @@
-@font-face {
-  font-family: 'Goonies';
-  src: url('Goonies.woff2') format('woff2'),
-       url('Goonies.woff') format('woff');
+body{
+  font-size:16px;
+  font-family: "Open Sans Condensed","Helvetica","Arial",sans-serif;
 }
 
-.hidden{
-  display:none;
-}
-
-main{
-  width: 1024px;
+#container{
+  width:700px;
   margin: 0 auto;
 }
 
-header{
-  background-image: url("../images/goonies.jpg");
-  background-repeat: no-repeat;
-
-  height:330px;
+h1{
+  font-weight:300;
+  font-size:34px;
+  color: #9bac73;
+  letter-spacing: 1px;
+  margin-top:100px;
 }
 
-body{
-  font-size:16px;
+h3{
+  font-weight:700;
+  font-size:14px;
+  color: #738152;
+  margin-top:15px;
+  margin-bottom:30px;
 }
 
-.text-graphic{
- font-size:7.5em;
- font-family: "Goonies",sans-serif;
-
- background: linear-gradient(to bottom, #F27322 10%, #F9E639 60%);
- -webkit-background-clip:text;
- -webkit-text-fill-color:transparent;
- background-clip: text;
-
- position:relative;
- left:28px;
- top:150px;
+p {
+  color:#6b6b69;
+  font-size;17px;
+  line-height:28px;
+  font-weight:300;
+  margin-top:15px;
 }
 
-.text-graphic span{
-  background: linear-gradient(to bottom, #F27322 10%, #F9E639 60%);
-  -webkit-background-clip:text;
-  -webkit-text-fill-color:transparent;
-  background-clip: text;
-  font-size:3rem;
-
-  position:absolute;
-  top: -50px;
-  left: 30px;
+.drop-cap{
+  font-size:100px;
+  font-weight:400;
+  line-height: 70px;
+  float:left;
+  margin: 5px 5px 0 0;
 }
